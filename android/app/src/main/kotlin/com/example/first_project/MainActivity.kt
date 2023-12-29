@@ -1,4 +1,4 @@
-package com.example.first_project
+package com.example.bus_tracking
 
 import io.flutter.embedding.android.FlutterActivity
 

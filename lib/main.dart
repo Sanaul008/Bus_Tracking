@@ -1,21 +1,21 @@
 
-import 'package:first_project/Emergency_Contact.dart';
-import 'package:first_project/EnteringPage.dart';
-import 'package:first_project/Notifications.dart';
-import 'package:first_project/Routes&Schedule%20Control.dart';
-import 'package:first_project/Routes&Schedule.dart';
-import 'package:first_project/Transport.dart';
-import 'package:first_project/admin_emergency.dart';
-import 'package:first_project/admin_home.dart';
-import 'package:first_project/admin_notification.dart';
-import 'package:first_project/admin_signin.dart';
-import 'package:first_project/bus_location.dart';
-import 'package:first_project/bus_track.dart';
-import 'package:first_project/home.dart';
-import 'package:first_project/payment.dart';
+import 'package:bus_tracking/user_Emergency_Contact.dart';
+import 'package:bus_tracking/EnteringPage.dart';
+import 'package:bus_tracking/user_Notifications.dart';
+import 'package:bus_tracking/user_Routes&Schedule.dart';
+import 'package:bus_tracking/admin_Routes&Schedule%20Control.dart';
+import 'package:bus_tracking/user_Transport.dart';
+import 'package:bus_tracking/admin_emergency.dart';
+import 'package:bus_tracking/admin_home.dart';
+import 'package:bus_tracking/admin_notification.dart';
+import 'package:bus_tracking/admin_signin.dart';
+import 'package:bus_tracking/admin_bus_location.dart';
+import 'package:bus_tracking/user_bus_track.dart';
+import 'package:bus_tracking/user_home.dart';
+import 'package:bus_tracking/user_payment.dart';
 import 'package:flutter/material.dart';
-import 'package:first_project/login.dart';
-import 'package:first_project/register.dart';
+import 'package:bus_tracking/user_login.dart';
+import 'package:bus_tracking/user_register.dart';
 
 void main()  {
   runApp(MaterialApp(
@@ -24,20 +24,20 @@ void main()  {
     routes: {
       'EnteringPage':(context) => EnteringPage(),
       'admin_signin': (context) => SignInPage(),
-      'bus_location': (context) => DriverLocation(),
-      'bus-track': (context) => BusTrack(),
-      'Routes&Schedule Control': (context) => RoutesAndSchedulePages(),
+      'admin_bus_location': (context) => DriverLocation(),
+      'user_bus-track': (context) => BusTrack(),
+      'admin_Routes&Schedule Control': (context) => RoutesAndSchedulePages(),
       'admin_notification' : (context) => NotificationPage(),
-      'payment' : (context) => PaymentWays(),
+      'user_payment' : (context) => PaymentWays(),
       'Notifications' : (context) => NotificationPages(),
       'admin_emergency': (context) => EmergencyPage(),
-      'Emergency_Contact': (context) => EmergencyPages(),
+      'user_Emergency_Contact': (context) => EmergencyPages(),
       'admin_home' :(context) => HomePages(),
-      'register': (context) => MyRegister(),
-      'login': (context) => MyLogin(),
-      'home': (context) => HomePage(),
-      'Transport': (context) => TransportPage(),
-      'Routes&Schedule': (context) => RoutesAndSchedulePage()
+      'user_register': (context) => MyRegister(),
+      'user_login': (context) => MyLogin(),
+      'user_home': (context) => HomePage(),
+      'user_Transport': (context) => TransportPage(),
+      'user_Routes&Schedule': (context) => RoutesAndSchedulePage()
 
     },
   ));

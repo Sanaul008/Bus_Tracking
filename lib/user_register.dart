@@ -129,7 +129,7 @@ class _MyRegisterState extends State<MyRegister> {
                                 backgroundColor: Color(0xff4c505b),
                                 child: IconButton(
                                     color: Colors.white,
-                                    onPressed: () {Navigator.pushNamed(context, 'home');},
+                                    onPressed: () {Navigator.pushNamed(context, 'user_home');},
                                     icon: Icon(
                                       Icons.arrow_forward,
                                     )),
@@ -144,7 +144,7 @@ class _MyRegisterState extends State<MyRegister> {
                             children: [
                               TextButton(
                                 onPressed: () {
-                                  Navigator.pushNamed(context, 'login');
+                                  Navigator.pushNamed(context, 'user_login');
                                 },
                                 child: Text(
                                   'Sign In',

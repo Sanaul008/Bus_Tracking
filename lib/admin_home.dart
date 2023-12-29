@@ -1,10 +1,10 @@
-import 'package:first_project/Routes&Schedule.dart';
-import 'package:first_project/admin_emergency.dart';
-import 'package:first_project/admin_notification.dart';
-import 'package:first_project/bus_location.dart';
+import 'package:bus_tracking/user_Routes&Schedule.dart';
+import 'package:bus_tracking/admin_emergency.dart';
+import 'package:bus_tracking/admin_notification.dart';
+import 'package:bus_tracking/admin_bus_location.dart';
 import 'package:flutter/material.dart';
 
-import 'Routes&Schedule Control.dart';
+import 'admin_Routes&Schedule Control.dart';
 
 class HomePages extends StatelessWidget {
   @override

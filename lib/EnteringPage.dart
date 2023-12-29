@@ -27,7 +27,7 @@ class EnteringPage extends StatelessWidget {
               SizedBox(height: 20), // Add some space between the buttons
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, 'login');
+                  Navigator.pushNamed(context, 'user_login');
                 },
                 child: Text('Student'),
               ),

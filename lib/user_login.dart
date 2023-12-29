@@ -89,7 +89,7 @@ class MyLogin extends StatelessWidget {
                                 color: Colors.white,
                                 onPressed: () {
                                   // Replace this with the appropriate navigation logic
-                                  Navigator.pushNamed(context, 'home');
+                                  Navigator.pushNamed(context, 'user_home');
                                 },
                                 icon: Icon(
                                   Icons.arrow_forward,
@@ -106,7 +106,7 @@ class MyLogin extends StatelessWidget {
                           children: [
                             TextButton(
                               onPressed: () {
-                                Navigator.pushNamed(context, 'register');
+                                Navigator.pushNamed(context, 'user_register');
                               },
                               child: Text(
                                 'Sign Up',
